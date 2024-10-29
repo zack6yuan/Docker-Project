@@ -14,6 +14,7 @@ RUN apt-get install -y python3-pip
 RUN rm /usr/lib/python*/EXTERNALLY-MANAGED
 RUN pip3 install Flask
 # Use "app" as the working directory.
+RUN pip3 install Flask-CORS
 WORKDIR /app
 # Copy the Python file to Docker image.
 COPY api.py /app
