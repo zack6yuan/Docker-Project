@@ -5,4 +5,4 @@ RUN apt-get update
 # Upgrade currently installed software.
 RUN apt-get upgrade -y
 # Run command in terminal.
-CMD ["echo", "Hello, World!"] test
+CMD ["echo", "Hello, World!"]
